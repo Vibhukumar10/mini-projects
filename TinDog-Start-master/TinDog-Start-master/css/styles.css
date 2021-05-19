@@ -1,0 +1,150 @@
+/*******************************************Tags***********************************************/
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/*******************************************Title-section***********************************************/
+#title{
+    padding: 0 15%;
+    background-color:  #ff4c68;
+    color: white;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    /* padding: 0 0 0; */
+}
+
+.logo-hover:hover{
+    color: rgb(56, 56, 56);
+}
+
+.fluid-container{
+    padding: 0% 0 2%;
+}
+
+.nav-item{
+    font-family: "Open sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.iphone{
+    position: relative;
+    top: 50px;
+    transform: rotate(25deg);
+    width: 60%;
+}
+
+.buttons{
+    margin: 5rem 0;
+}
+
+.navbar{
+    padding: 2rem 0 4rem;
+}
+
+.iphone-container{
+    padding-left: 3%;
+}
+
+
+/*****************************************Features-section******************************************/
+
+#features{
+    background-color: #fff;
+    position: relative;
+    /* bottom: 72px; */
+    padding: 7.5% 15%;
+}
+
+.features-list{
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.font-awesome{
+    font-size: 4rem;
+    color: #ef8172;
+}
+
+.font-awesome:hover{
+    color: tomato;
+}
+
+
+/*****************************************Testimonials-section*************************************/
+
+#testimonials{
+    position: relative;
+    /* bottom: 72px; */
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin: 0 auto 0;
+}
+
+#press{
+    position: relative;
+    /* bottom: 72px; */
+    background-color: #ef8172;
+    text-align: center;
+    padding: 0 0 3%;
+}
+
+.press-logo{
+    width: 12.5%;
+    margin: 0 40px 0;
+    
+}
+
+#carouselExampleControls{
+    padding: 7% 15%;
+
+}
+
+/**********************************************Pricing**********************************************/
+
+#pricing{
+    position: relative;
+    /* bottom: 72px; */
+    padding: 3% 15%;
+}
+
+.pricing-heading-container{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.card{
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 0 3%;
+}
+
+
+@media (max-width: 991px){
+    .iphone{
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    .nav-link{
+        text-align: left;
+    }
+}

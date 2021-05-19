@@ -1,0 +1,65 @@
+/* tags */
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
+    margin: 0%;
+    color:rgb(41, 192, 154);
+    text-shadow: 10px 4px #000000;
+}
+
+p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    color:rgb(41, 192, 154);
+}
+
+img{
+    width: 75%;
+}
+
+body{
+    background-color: rgb(46, 53, 56);
+}
+
+footer{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffff;
+}
+
+/* classes */
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+
+.container{
+    text-align: center;
+    margin: 5% 0%;
+}
+
+.dices{
+    margin-top: 1%;
+}
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 3rem;
+        margin: 25% 0 20%;
+    }
+    footer{
+        font-size: 1rem;
+        margin-top: 20%;
+    }
+    img{
+        width: 50%;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .dice{
+        width: 150px;
+    }
+    
+}

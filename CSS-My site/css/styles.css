@@ -1,0 +1,119 @@
+/****************************************Tags CSS*********************************************/
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 5.625rem;
+    color: #66BFBF; 
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #11999E;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #11999E;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-width: 12px;
+  border-color: #84a9ac;
+  width: 4%;
+  margin-bottom: 100px;
+}
+
+p{
+    line-height: 2;
+}
+/****************************************Class CSS*********************************************/
+.pro{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+.middle-container{
+    padding-top: 0px;
+
+}
+
+
+.bottom-container{
+
+}
+
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 100px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 400px;    
+}
+
+.Main-subheading{
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+.footer-link, .btn{
+    color: #11999E;
+}
+
+.profile-photo{
+    width: 200px;
+    height: 200px;
+}
+
+.computer{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
+
+.skill-row1{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skill-row2{
+    width: 50%;
+    margin: 100px auto 150px auto;
+    text-align: left;
+}
+
+.profile{
+    margin: 100px 100px;
+}
+
+.chillis{
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+
+}
