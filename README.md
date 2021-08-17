@@ -1,4 +1,4 @@
-# A resository for all my mini-projects in Web Development :smile:
+# A repository for all my mini-projects in Web Development :smile:
 ## Always remember : Every little 💧 makes a gigantic 🌊 !
 Some of the Projects include:
 - [x] [To-Do-List](https://secure-plains-24068.herokuapp.com/)
